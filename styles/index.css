@@ -1,0 +1,166 @@
+/* 
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 50px;
+    width: 100%;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+}
+.header-a a{
+    text-decoration: none;
+    color: white;
+    
+} */
+.ligne{
+    display: flex; 
+    justify-content: space-between; 
+    margin: 0 10px 20px 10px;
+}
+.ligne a{
+    text-decoration: none; color: blue;
+}
+.espace{
+    margin-top: 20px; 
+    margin-bottom: 30px;
+}
+.init{
+    margin-bottom: 30px;
+}
+.element-deux{
+    text-align: start;
+    margin-bottom: 20px;
+}
+.element-deux img{
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+}
+.element-un img, .element-empires img{
+    border-radius: 15px;
+}
+.element-un{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.art-element, .art-element-empires{
+    margin-top: 10px;
+}
+
+.element-empires{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+/* .element{
+    border: solid black 1px;
+    display: flex;
+    width: 450px;
+    height: 150px;
+}
+.art-element{
+    margin-left: 5px;
+} */
+
+/* 
+footer form button{
+    height: 30px;
+    width: 150px;
+    border-radius: 7px;
+    border: #0e2431 solid 0px;
+} */
+.none{
+    display: none;
+}
+em{
+    text-decoration: underline;
+    font-style: normal;
+}
+.flex a, .art-element-empires a, .art-element a, .element-un a{
+    text-decoration: none;
+    color: black;
+}
+.flex a:hover, .art-element-empires a:hover, .art-element a:hover, .element-un a:hover{
+    text-decoration: underline;
+}
+.interview{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.art-inter img{
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+}
+.art-inter p{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.carte-ent{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ent{
+    display: flex;
+    gap: 15px;
+    border: black solid 2px;
+    padding: 2px 30px 2px 2px;
+    background-color: rgb(223, 218, 218);
+    width: 270px;
+}
+.ent img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+@media screen and (min-width: 768px){
+   .init{
+        display: flex;
+        gap: 20px; 
+        flex-direction: row-reverse;
+    }
+    .element-un{
+        flex-direction: column;
+        
+    }
+    .element-un img, .don-class img{
+        width: 300px;
+        height: 150px;
+    
+    }
+    .init{
+        margin: 0 30px 0 30px;
+    }
+    .maitrises, .element-empires, .carte-ent{
+        margin: 0 60px 0 60px;
+    }
+    .none{
+        display: block;
+    }
+}
+@media screen and (min-width: 850px) {
+    .maitrises, .element-empires, hr{
+        margin: 0 80px 0 80px;
+        justify-content: space-between;
+    }
+    .ligne{
+        margin: 0 80px 30px 80px;
+    }
+}

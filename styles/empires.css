@@ -1,0 +1,82 @@
+.article a, .articles a{
+    text-decoration: none;
+    color: black;
+}
+.article a:hover, .articles a:hover{
+    text-decoration: underline;
+}
+.article img{
+    /* width: 500px; */
+    width: 100%;
+    height: 250px;
+}
+.espace, .article{
+    margin-bottom: 25px;
+}
+.avant::before{
+    content: "";
+    background-image: url("/styles/tag.svg");
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+.citation{
+    text-align: center;
+    border: black solid 2px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px 0 10px 0;
+    /* box-shadow: 1px 1px 5px black; */
+    padding: 20px;
+    background-color: rgb(185, 185, 181);
+}   
+.carte{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 70px;       
+}
+.citation{
+    transition: border 1s ease-in-out 0.5s;
+}
+.contenu-article{
+  white-space: pre-wrap;
+}
+.element-empires:nth-child(5){
+    display: none;
+}
+.articles{
+    font-weight: bold;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px){
+    .carte{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+        flex-direction: initial;
+    }
+    .citation{
+        width: 250px; 
+        height: 150px; 
+    }
+}
+@media screen and (min-width: 768px) {
+    .screen{
+        display: flex;
+        gap: 20px;
+    }
+    
+    /* .citation{
+        border: black solid 1px; 
+        box-shadow: 2px 2px 2px 2px rgb(102, 101, 101);
+        width: 200px;
+    } */
+    
+    
+
+}

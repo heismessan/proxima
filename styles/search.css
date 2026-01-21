@@ -1,0 +1,33 @@
+.main input{
+    height: 30px;
+    width: 250px;
+    padding-left: 20px;
+}
+.submit{
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.main-ele{
+    margin: 20px 0 35px 0;
+}
+.element{
+    margin-bottom: 10px;
+}
+.main{
+    height: 100%;
+}
+h1{
+    font-size: 35px;
+}
+form button{
+    background-color: #4444ebe6;
+    border: 0px solid black;
+    width: 10%;
+    color: white;
+}
